@@ -1,0 +1,27 @@
+{
+  "input": "E:\\Soft\\trackba.exe",
+  "xrefs": [
+    {
+      "ea": 5135344,
+      "refs": [
+        {
+          "frm": 5337136,
+          "to": 5135344,
+          "type": 1,
+          "iscode": false
+        }
+      ]
+    },
+    {
+      "ea": 5168105,
+      "refs": [
+        {
+          "frm": 4393170,
+          "to": 5168105,
+          "type": 17,
+          "iscode": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "input": "E:\\Soft\\trackaa.exe",
+  "xrefs": [
+    {
+      "ea": 5068467,
+      "refs": [
+        {
+          "frm": 5264192,
+          "to": 5068467,
+          "type": 1,
+          "iscode": false
+        }
+      ]
+    },
+    {
+      "ea": 5101134,
+      "refs": [
+        {
+          "frm": 4385442,
+          "to": 5101134,
+          "type": 17,
+          "iscode": true
+        }
+      ]
+    }
+  ]
+}

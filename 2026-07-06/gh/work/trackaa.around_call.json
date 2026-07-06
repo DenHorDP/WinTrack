@@ -1,0 +1,275 @@
+{
+  "input": "E:\\Soft\\trackaa.exe",
+  "items": [
+    {
+      "center": 4385442,
+      "func": null,
+      "rows": [
+        {
+          "ea": 4385378,
+          "off": 191074,
+          "bytes": "4d",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385379,
+          "off": 191075,
+          "bytes": "fc",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385380,
+          "off": 191076,
+          "bytes": "51",
+          "text": "push    ecx"
+        },
+        {
+          "ea": 4385381,
+          "off": 191077,
+          "bytes": "68 84 f8 51 00",
+          "text": "push    offset aToolbarBarI; \"Toolbar-Bar%i\""
+        },
+        {
+          "ea": 4385386,
+          "off": 191082,
+          "bytes": "68 d8 0b 53 00",
+          "text": "push    offset unk_530BD8"
+        },
+        {
+          "ea": 4385391,
+          "off": 191087,
+          "bytes": "e8 f5 2f 09 00",
+          "text": "call    sub_4C1A69"
+        },
+        {
+          "ea": 4385396,
+          "off": 191092,
+          "bytes": "83 c4 0c",
+          "text": "add     esp, 0Ch"
+        },
+        {
+          "ea": 4385399,
+          "off": 191095,
+          "bytes": "6a 00",
+          "text": "push    0"
+        },
+        {
+          "ea": 4385401,
+          "off": 191097,
+          "bytes": "6a 00",
+          "text": "push    0"
+        },
+        {
+          "ea": 4385403,
+          "off": 191099,
+          "bytes": "b9 d8 0b 53 00",
+          "text": "mov     ecx, offset unk_530BD8"
+        },
+        {
+          "ea": 4385408,
+          "off": 191104,
+          "bytes": "e8 7b 62 fd ff",
+          "text": "call    unknown_libname_48; Microsoft VisualC 2-14/net runtime"
+        },
+        {
+          "ea": 4385413,
+          "off": 191109,
+          "bytes": "50",
+          "text": "push    eax"
+        },
+        {
+          "ea": 4385414,
+          "off": 191110,
+          "bytes": "b9 90 4f 53 00",
+          "text": "mov     ecx, offset unk_534F90"
+        },
+        {
+          "ea": 4385419,
+          "off": 191115,
+          "bytes": "e8 70 50 0a 00",
+          "text": "call    sub_4D3B00"
+        },
+        {
+          "ea": 4385424,
+          "off": 191120,
+          "bytes": "eb c0",
+          "text": "jmp     short loc_42EA52"
+        },
+        {
+          "ea": 4385426,
+          "off": 191122,
+          "bytes": "68 7c f8 51 00",
+          "text": "push    offset aToolbar; \"Toolbar\""
+        },
+        {
+          "ea": 4385431,
+          "off": 191127,
+          "bytes": "8b 4d f8",
+          "text": "mov     ecx, [ebp-8]"
+        },
+        {
+          "ea": 4385434,
+          "off": 191130,
+          "bytes": "e8 22 63 0a 00",
+          "text": "call    sub_4D4DC1"
+        },
+        {
+          "ea": 4385439,
+          "off": 191135,
+          "bytes": "8b 4d f8",
+          "text": "mov     ecx, [ebp-8]"
+        },
+        {
+          "ea": 4385442,
+          "off": 191138,
+          "bytes": "e8 a7 eb 0a 00",
+          "text": "call    sub_4DD64E"
+        },
+        {
+          "ea": 4385447,
+          "off": 191143,
+          "bytes": "8b e5",
+          "text": "mov     esp, ebp"
+        },
+        {
+          "ea": 4385449,
+          "off": 191145,
+          "bytes": "5d",
+          "text": "pop     ebp"
+        },
+        {
+          "ea": 4385450,
+          "off": 191146,
+          "bytes": "c3",
+          "text": "retn"
+        },
+        {
+          "ea": 4385451,
+          "off": 191147,
+          "bytes": "cc",
+          "text": "align 10h"
+        },
+        {
+          "ea": 4385452,
+          "off": 191148,
+          "bytes": "cc",
+          "text": "align 10h"
+        },
+        {
+          "ea": 4385453,
+          "off": 191149,
+          "bytes": "cc",
+          "text": "align 10h"
+        },
+        {
+          "ea": 4385454,
+          "off": 191150,
+          "bytes": "cc",
+          "text": "align 10h"
+        },
+        {
+          "ea": 4385455,
+          "off": 191151,
+          "bytes": "cc",
+          "text": "align 10h"
+        },
+        {
+          "ea": 4385456,
+          "off": 191152,
+          "bytes": "55",
+          "text": "push    ebp"
+        },
+        {
+          "ea": 4385457,
+          "off": 191153,
+          "bytes": "8b ec",
+          "text": "mov     ebp, esp"
+        },
+        {
+          "ea": 4385459,
+          "off": 191155,
+          "bytes": "51",
+          "text": "push    ecx"
+        },
+        {
+          "ea": 4385460,
+          "off": 191156,
+          "bytes": "89 4d fc",
+          "text": "mov     [ebp-4], ecx"
+        },
+        {
+          "ea": 4385463,
+          "off": 191159,
+          "bytes": "8b 4d fc",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385466,
+          "off": 191162,
+          "bytes": "e8 96 17 0b 00",
+          "text": "call    ?OnDestroy@CMDIFrameWnd@@IAEXXZ; CMDIFrameWnd::OnDestroy(void)"
+        },
+        {
+          "ea": 4385471,
+          "off": 191167,
+          "bytes": "6a 01",
+          "text": "push    1"
+        },
+        {
+          "ea": 4385473,
+          "off": 191169,
+          "bytes": "8b 4d fc",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385476,
+          "off": 191172,
+          "bytes": "e8 b7 05 00 00",
+          "text": "call    sub_42F080"
+        },
+        {
+          "ea": 4385481,
+          "off": 191177,
+          "bytes": "6a 02",
+          "text": "push    2"
+        },
+        {
+          "ea": 4385483,
+          "off": 191179,
+          "bytes": "8b 4d fc",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385486,
+          "off": 191182,
+          "bytes": "e8 ad 05 00 00",
+          "text": "call    sub_42F080"
+        },
+        {
+          "ea": 4385491,
+          "off": 191187,
+          "bytes": "8b 4d fc",
+          "text": "mov     ecx, [ebp-4]"
+        },
+        {
+          "ea": 4385494,
+          "off": 191190,
+          "bytes": "81 c1 70 03 00 00",
+          "text": "add     ecx, 370h"
+        },
+        {
+          "ea": 4385500,
+          "off": 191196,
+          "bytes": "e8 f9 f2 09 00",
+          "text": "call    sub_4CDDDA"
+        },
+        {
+          "ea": 4385505,
+          "off": 191201,
+          "bytes": "8b e5",
+          "text": "mov     esp, ebp"
+        }
+      ]
+    }
+  ]
+}
