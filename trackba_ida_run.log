@@ -1,0 +1,123 @@
+Database D:\WinTrack17\trackba.exe.id0 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   524288    64 8192 allocating memory for b-tree...
+  5259264   642 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  6045696            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'trackba.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260421)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260421 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+D:\CODEX\ida_export_trackba.py: invalid non-printable character U+FEFF (D:/CODEX/ida_export_trackba.py, line 1)
+Traceback (most recent call last):
+  File "C:\Program Files\IDA Professional 9.3\python\ida_idaapi.py", line 504, in IDAPython_ExecScript
+    code = compile(raw.decode(encoding), path, 'exec')
+  File "D:/CODEX/ida_export_trackba.py", line 1
+    ﻿# IDA JSON exporter for trackba.exe
+    ^
+SyntaxError: invalid non-printable character U+FEFF
+ -> OK
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...Database D:\WinTrack17\trackba.exe.id0 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   524288    64 8192 allocating memory for b-tree...
+  5259264   642 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  6045696            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'trackba.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260421)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260421 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+Using FLIRT signature: Microsoft VisualC 2-14/net runtime
+Using FLIRT signature: MFC 3.1-14.0 32bit
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+40A4C0: propagate_stkargs: function is already typed
+4D5ACC: propagate_stkargs: function is already typed
+4E18FF: propagate_stkargs: function is already typed
+4F3DAE: propagate_stkargs: function is already typed
+4F3DE2: propagate_stkargs: function is already typed
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+The decompiler assumes that the segment '.idata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OK
+The decompiler assumes that the segment '.rdata' is read-only because of its NAME.
+All data references to the segment will be replaced by constant values.
+This may lead to drastic changes in the decompiler output.
+If the segment is not read-only, please change the segment NAME.
+
+In general, the decompiler checks the segment permissions, class, and name
+to determine if it is read-only.
+ -> OKDatabase D:\WinTrack17\trackba.exe.id0 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+Database for file 'D:\WinTrack17\trackba.exe.id0' is not closed. Do you want IDA to repair it?
+
+Please note that the repaired database will be upgraded to
+the current version of IDA and may still have problems.
+The best solution is to use the packed database or a backup.
+ -> ~R~epair
+The database has been successfully repaired.
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+ 10870784  1327 8192 allocating memory for b-tree...
+$$ ^4C299F.var_8: no back reference from FF00000000008D4B...fixed
+$$ ^4C7FE4.__return_address: no back reference from FF00000000008D49...fixed
+$$ ^4C8032.__return_address: no back reference from FF00000000008D4A...fixed
+$$ ^4CDEB8.arg_1: no back reference from FF00000000008D4C...fixed
+$$ ^4CEC1B.var_4: no back reference from FF00000000008D4D...fixed
+$$ ^4CFBC2.arg_10: no back reference from FF00000000008D4E...fixed
+$$ ^4D0339.var_E: no back reference from FF00000000008D4F...fixed
+$$ ^4D0A1D.var_4: no back reference from FF00000000008D50...fixed
+$$ ^4F4804.__return_address: no back reference from FF00000000008D52...fixed
+$$ ^4F5F73.__return_address: no back reference from FF00000000008D51...fixed
+found nodes in the privrange above the maxnode (FF00000000000069)...fixed
+$$ ^4F9DFE.var_4: no valid name record to FF00000000005D12...fixed
+Database still contains inconsistencies, see the message window for the details -> OK
+  5251072   641 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 16384000            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'trackba.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260421)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260421 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA_JSON_EXPORT_RESULT={"mode": "single", "files": [{"path": "D:\\WinTrack17\\trackba.ida.json", "bytes": 705337}]}
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...
