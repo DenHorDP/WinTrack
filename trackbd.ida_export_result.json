@@ -1,0 +1,41 @@
+{
+  "mode": "split",
+  "manifest": "D:\\WinTrack17\\trackbd.ida.manifest.json",
+  "files": [
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part001.json",
+      "bytes": 19982885,
+      "item_count": 2975
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part002.json",
+      "bytes": 19994901,
+      "item_count": 730
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part003.json",
+      "bytes": 19990428,
+      "item_count": 751
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part004.json",
+      "bytes": 19903021,
+      "item_count": 366
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part005.json",
+      "bytes": 19998659,
+      "item_count": 545
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part006.json",
+      "bytes": 19986511,
+      "item_count": 1187
+    },
+    {
+      "path": "D:\\WinTrack17\\trackbd.ida.part007.json",
+      "bytes": 11184542,
+      "item_count": 751
+    }
+  ]
+}
