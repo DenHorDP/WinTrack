@@ -1,0 +1,80 @@
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA Professional 9.3\loaders\dos.dll)
+Possible file format: Portable executable for 80386 (PE) (C:\Program Files\IDA Professional 9.3\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  7815168   954 8192 allocating memory for b-tree...
+  7815168   954 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 15892480            total memory allocated
+
+Loading file 'D:\WinTrack17\trackbd.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (00401000-00508000) ... ... OK
+  1. Creating a new segment  (00508000-0052E000) ... ... OK
+  2. Creating a new segment  (0052E000-00555000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+  3. Creating a new segment  (005087E8-0052E000) ... ... OK
+File D:\WinTrack17\ImageLib2v.dll is used for module IMAGELIB2V...
+Plan  FLIRT signature: Microsoft VisualC 2-14/net runtime
+autoload.cfg: vc32rtf.sig autoloads mssdk_win7.til
+Type library 'mssdk_win7' loaded. Applying types...
+Types applied to 489 names.
+Plan  FLIRT signature: MFC 3.1-14.0 32bit
+autoload.cfg: vc32mfc.sig autoloads mssdk_win7.til
+main() function at 4D11EA, named "_WinMain@16"
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'D:\WinTrack17\trackbd.exe' has been successfully loaded into the database.
+Flushing buffers, please wait...ok
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260421)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260421 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: Microsoft VisualC 2-14/net runtime
+Using FLIRT signature: MFC 3.1-14.0 32bit
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+40A4C0: propagate_stkargs: function is already typed
+4D5ACC: propagate_stkargs: function is already typed
+4E18FF: propagate_stkargs: function is already typed
+4F3DAE: propagate_stkargs: function is already typed
+4F3DE2: propagate_stkargs: function is already typed
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+IDA_JSON_EXPORT_RESULT={"mode": "split", "manifest": "D:\\WinTrack17\\trackbd.ida.manifest.json", "files": [{"path": "D:\\WinTrack17\\trackbd.ida.part001.json", "bytes": 20954138, "item_count": 3040}, {"path": "D:\\WinTrack17\\trackbd.ida.part002.json", "bytes": 20945657, "item_count": 716}, {"path": "D:\\WinTrack17\\trackbd.ida.part003.json", "bytes": 20954377, "item_count": 764}, {"path": "D:\\WinTrack17\\trackbd.ida.part004.json", "bytes": 20107658, "item_count": 347}, {"path": "D:\\WinTrack17\\trackbd.ida.part005.json", "bytes": 20937995, "item_count": 676}, {"path": "D:\\WinTrack17\\trackbd.ida.part006.json", "bytes": 20970819, "item_count": 1287}, {"path": "D:\\WinTrack17\\trackbd.ida.part007.json", "bytes": 6170303, "item_count": 475}]}
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...Database D:\WinTrack17\trackbd.exe.i64 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  9658368  1179 8192 allocating memory for b-tree...
+  5259264   642 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 15179776            total memory allocated
+
+Loading processor module C:\Program Files\IDA Professional 9.3\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'trackbd.exe' has been loaded.
+Hex-Rays Decompiler plugin has been loaded (v9.3.0.260421)
+  The hotkeys are F5: decompile, Ctrl-F5: decompile all.
+
+  Please check the Edit/Plugins menu for more information.
+Hex-rays version 9.3.0.260421 has been detected, gooMBA plugin ready to use
+Using type parser: legacy
+IDA_JSON_EXPORT_RESULT={"mode": "split", "manifest": "D:\\WinTrack17\\trackbd.ida.manifest.json", "files": [{"path": "D:\\WinTrack17\\trackbd.ida.part001.json", "bytes": 19982885, "item_count": 2975}, {"path": "D:\\WinTrack17\\trackbd.ida.part002.json", "bytes": 19994901, "item_count": 730}, {"path": "D:\\WinTrack17\\trackbd.ida.part003.json", "bytes": 19990428, "item_count": 751}, {"path": "D:\\WinTrack17\\trackbd.ida.part004.json", "bytes": 19903021, "item_count": 366}, {"path": "D:\\WinTrack17\\trackbd.ida.part005.json", "bytes": 19998659, "item_count": 545}, {"path": "D:\\WinTrack17\\trackbd.ida.part006.json", "bytes": 19986511, "item_count": 1187}, {"path": "D:\\WinTrack17\\trackbd.ida.part007.json", "bytes": 11184542, "item_count": 751}]}
+Flushing buffers, please wait...ok
+Unloading IDP module C:\Program Files\IDA Professional 9.3\procs\pc.dll...
